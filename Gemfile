@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -25,5 +26,6 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
